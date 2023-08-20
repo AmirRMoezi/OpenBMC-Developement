@@ -1,5 +1,5 @@
 # How to append extra modules to OpenBMC
-To append extra modules to OpenBMC, you can simply put the command below in the local.conf file of your OpenBMC/buld directory:
+To append extra modules to OpenBMC, you can simply put the command below in the local.conf file of your machine configuration file.
 <pre>
   <code>
 IMAGE_INSTALL:append = "apt"
