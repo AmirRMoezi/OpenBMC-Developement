@@ -11,4 +11,4 @@ According to this command, apt will be installed on OpenBMC after executing bitb
 openbmc/meta-aspeed/conf/machine
   </code>
 </pre>
-A sample configuration file is included in the repository.
+The configuration file is included in the repository.
