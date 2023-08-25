@@ -13,7 +13,7 @@ $ networkctl reload
 $ ifconfig
   </code>
 </pre>
-Upon the execution of the provided commands, the IP address of the eth0 interface will be modified to XXX.XXX.XXX.XXX, set as a static address with a subnet mask of 255.255.255.0. You are free to adjust the IP address as needed. The configuration file, which designates the specified IP address and disables DHCP, is accessible via the specified path:
+Upon the execution of the provided commands, the IP address of the eth0 interface will be modified to XXX.XXX.XXX.XXX, set as a static address with a subnet mask of 255.255.255.0. You are free to adjust the IP address as needed. The configuration file is accessible via the specified path:
 <pre>
   <code>
 /etc/systemd/network
