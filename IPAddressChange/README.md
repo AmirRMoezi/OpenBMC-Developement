@@ -1,6 +1,6 @@
-# How to change OpenBMC IP address at runtime?
+# How to change OpenBMC IP address during runtime?
 
-To change OpenBMC IP address at runtime, the commands below should be executed in order:
+To modify the OpenBMC IP address during runtime, it is necessary to execute the following commands in sequence:
 <pre>
   <code>
 $ busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/eth0 xyz.openbmc_project.Network.EthernetInterface DHCPEnabled s     
